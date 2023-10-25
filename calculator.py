@@ -13,6 +13,6 @@ while True:
 
     worker = int(input("근로자수를 입력하세요: "))
 
-    Disaster_rate = calculate_ratio(death, worker)
+    Disaster_rate = calculate(death, worker)
 
 print(f"연천인율은 {Disaster_rate:.2f}입니다.")
